@@ -20,7 +20,7 @@ app.get('/files',(req,res)=>{
 
     let fileInfos = [];
 
-    files?.forEach((file) => {
+    files.forEach((file) => {
       fileInfos.push({
         name: file,
         url: __dirname + file,
