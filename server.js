@@ -5,7 +5,7 @@ const uploadFile = require("./upload");
 
 
 app.get('/', (req,res)=>{
-    res.send("<h1>hello hello</h1>")
+    res.send("<h1>Documentation soon</h1>")
 })
 
 app.get('/files',(req,res)=>{
